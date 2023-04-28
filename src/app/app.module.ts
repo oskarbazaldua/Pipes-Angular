@@ -10,6 +10,7 @@ import { SharedModule } from './shared/shared.module';
 import LocaleEsMX from '@angular/common/locales/es-MX';
 import LocaleEsFR from '@angular/common/locales/fr-CA';
 
+//función para establecer los idiomas que queremos usar en las aplicación
 import { registerLocaleData } from "@angular/common";
 
 registerLocaleData( LocaleEsMX );
@@ -26,7 +27,9 @@ registerLocaleData( LocaleEsFR );
     BrowserAnimationsModule
   ],
   providers: [
-    {provide: LOCALE_ID, useValue: 'es-MX'}
+    /*configurar el idioma de forma global en la app
+    se importa LOCAL_ID de @angular/core*/
+    {provide: LOCALE_ID, useValue: 'fr-CA'}
   ],
   bootstrap: [AppComponent]
 })
