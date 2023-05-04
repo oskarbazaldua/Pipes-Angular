@@ -8,6 +8,7 @@ import { FieldsetModule } from 'primeng/fieldset';
 import { PanelModule } from 'primeng/panel';
 import { SplitButtonModule } from 'primeng/splitbutton';
 import { ToolbarModule } from 'primeng/toolbar';
+import { TableModule } from 'primeng/table';
 
 
 
@@ -21,6 +22,7 @@ import { ToolbarModule } from 'primeng/toolbar';
     PanelModule,
     ToolbarModule,
     SplitButtonModule,
+    TableModule,
   ]
 })
 export class PrimeNgModule { }

@@ -12,6 +12,7 @@ export class ToogleCasePipe implements PipeTransform {
     : value.toLowerCase();
   }
 
+
 }
 
 
